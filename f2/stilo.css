@@ -1,0 +1,84 @@
+*{box-sizing: border-box;}
+
+.container{
+  display: flex;
+  width: 100%;
+  max-width: 840px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.uno{
+  width: 150px;
+  height: 150px;
+  border-radius: 7%;
+}
+
+.dos{
+  width: 50%;
+  text-align: left;
+}
+
+.button{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.padd1{
+  width: 30%;
+  background: grey;
+  text-align: center;
+  border-radius: 7%;
+}
+
+.padd2{
+  width: 30%;
+  margin-left: 3%;
+  border-style: solid;
+  border-color: grey;
+  text-align: center;
+  border-radius: 7%;
+}
+
+.tres{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.cuatro{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.nota{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  background-color: grey;
+  border-radius: 7%;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.val{
+  font-weight: bold;
+}
+
+.com{
+  color: grey;
+}
+
+.star{
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
